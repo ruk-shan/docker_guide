@@ -17,3 +17,6 @@ $docker ps
 
 //$ source /opt/ros/melodic/setup.bash
 $ docker exec -it mymelodic bash
+
+check docker stats 
+$docker stats
