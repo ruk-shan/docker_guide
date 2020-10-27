@@ -1,0 +1,11 @@
+Docker basic commands targeted for ROS development. 
+
+$ docker pull ros
+  (only for add user 1st time)sudo usermod -a -G docker 
+  $(whoami)
+  
+  
+$ docker pull ros:kinetic-robot
+$ docker run -it ros
+$ source /opt/ros/kinetic/setup.bash
+$ docker exec -it NAME bash
