@@ -5,7 +5,15 @@ $ docker pull ros
   $(whoami)
   
   
-$ docker pull ros:kinetic-robot
-$ docker run -it ros
-$ source /opt/ros/kinetic/setup.bash
-$ docker exec -it NAME bash
+get a docker image
+$ docker pull ros:melodic-robot
+
+run image 
+$ docker run -d -t --name mymelodic
+
+list running docker containers
+$docker ps
+
+
+//$ source /opt/ros/melodic/setup.bash
+$ docker exec -it mymelodic bash
